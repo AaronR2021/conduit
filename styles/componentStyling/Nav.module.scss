@@ -1,0 +1,36 @@
+.navouter{
+    max-width: 1000vw;
+    background-color: rgb(249, 249, 250);
+
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   margin: 0 auto;
+   background-color: rgb(249, 249, 250);
+   padding: 0px 20px;
+   max-width: 1024px;
+   ul{
+       display: flex;
+       list-style-type: none;
+       margin-right: 10px;
+       a{
+           text-decoration: none;
+           color: rgb(131, 131, 131);
+           &:hover,&:active{
+           color: rgb(48, 44, 44);
+           }
+       }
+    li{
+        margin-left: 13px;
+        letter-spacing: 1.4px;
+
+    }
+
+    }
+    h2{
+        color: rgb(124, 180, 40);
+    }
+}
